@@ -22,7 +22,7 @@ streamlit.dataframe(fruits_to_show)
 
 #new section 
 streamlit.header("Fruityvice Fruit Advice!")
-fruit_choice = streamlit.text_input('What fruit would you like information about?','jackfruit')
+fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
 streamlit.write('The user entered ', fruit_choice)
 
 import requests
@@ -46,5 +46,5 @@ streamlit.dataframe(my_data_rows)
 
 #new section 
 streamlit.header("Fruityvice Fruit Advice!")
-add_my_fruit = streamlit.text_input('What is the current fruit?','Kiwi')
+add_my_fruit = streamlit.text_input('What is the current fruit?','jackfruit')
 streamlit.write('The user entered ', add_my_fruit)
